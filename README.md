@@ -3,7 +3,7 @@ Kashcoin Core integration/staging tree
 
 [![Build Status](https://travis-ci.org/kashcoin-project/kashcoin.svg?branch=master)](https://travis-ci.org/kashcoin-project/kashcoin)
 
-https://kashcoin.org
+http://www.nkash.tech
 
 What is Kashcoin?
 ----------------
