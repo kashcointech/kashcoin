@@ -15,7 +15,7 @@ out collectively by the network. Kashcoin Core is the name of open source
 software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Kashcoin Core software, see [https://kashcoin.org](https://kashcoin.org).
+the Kashcoin Core software, see [http://www.nkash.tech](http://www.nkash.tech).
 
 License
 -------
