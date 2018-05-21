@@ -5,7 +5,7 @@ Setup
 ---------------------
 Kashcoin Core is the original Kashcoin client and it builds the backbone of the network. It downloads and, by default, stores the entire history of Kashcoin transactions (which is currently more than 7 GBs); depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
 
-To download Kashcoin Core, visit [kashcoin.org](https://kashcoin.org).
+To download Kashcoin Core, visit [http://www.nkash.tech](http://www.nkash.tech).
 
 Running
 ---------------------

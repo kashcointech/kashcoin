@@ -29,7 +29,7 @@ Build Kashcoin Core
 
 1. Clone the kashcoin source code and cd into `kashcoin`
 
-        git clone https://github.com/kashcoin-project/kashcoin
+        git clone https://github.com/kashcointech/kashcoin
         cd kashcoin
 
 2.  Build kashcoin-core:

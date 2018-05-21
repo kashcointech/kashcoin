@@ -11,7 +11,7 @@ the same, tested dependencies are used and statically built into the executable.
 Multiple developers build the source code by following a specific descriptor
 ("recipe"), cryptographically sign the result, and upload the resulting signature.
 These results are compared and only if they match, the build is accepted and uploaded
-to kashcoin.org.
+to nkash.org.
 
 More independent Gitian builders are needed, which is why this guide exists.
 It is preferred you follow these steps yourself instead of using someone else's
@@ -314,8 +314,8 @@ Clone the git repositories for kashcoin and Gitian.
 
 ```bash
 git clone https://github.com/devrandom/gitian-builder.git
-git clone https://github.com/kashcoin-project/kashcoin
-git clone https://github.com/kashcoin-project/gitian.sigs.ltc.git
+git clone https://github.com/kashcointech/kashcoin
+git clone https://github.com/kashcointech/gitian.sigs.ltc.git
 ```
 
 Setting up the Gitian image
@@ -372,7 +372,7 @@ Output from `gbuild` will look something like
     remote: Total 57959 (delta 0), reused 0 (delta 0), pack-reused 57958
     Receiving objects: 100% (57959/57959), 53.76 MiB | 484.00 KiB/s, done.
     Resolving deltas: 100% (41590/41590), done.
-    From https://github.com/kashcoin-project/kashcoin
+    From https://github.com/kashcointech/kashcoin
     ... (new tags, new branch etc)
     --- Building for trusty amd64 ---
     Stopping target if it is up
@@ -448,7 +448,7 @@ Then when building, override the remote URLs that gbuild would otherwise pull fr
 ```bash
 
 cd /some/root/path/
-git clone https://github.com/kashcoin-project/kashcoin-detached-sigs.git
+git clone https://github.com/kkashcointech/kashcoin-detached-sigs.git
 
 BTCPATH=/some/root/path/kashcoin
 SIGPATH=/some/root/path/kashcoin-detached-sigs
@@ -480,5 +480,5 @@ Uploading signatures
 ---------------------
 
 After building and signing you can push your signatures (both the `.assert` and `.assert.sig` files) to the
-[kashcoin-project/gitian.sigs.ltc](https://github.com/kashcoin-project/gitian.sigs.ltc/) repository, or if that's not possible create a pull
+[kashcointech/gitian.sigs.ltc](https://github.com/kashcointech/gitian.sigs.ltc/) repository, or if that's not possible create a pull
 request. You can also mail the files to thrasher (thrasher@addictionsofware.com) and he will commit them.

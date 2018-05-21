@@ -7,7 +7,7 @@ architectures:
 packages:
 - "faketime"
 remotes:
-- "url": "https://github.com/kashcoin-project/kashcoin-detached-sigs.git"
+- "url": "https://github.com/kashcointech/kashcoin-detached-sigs.git"
   "dir": "signature"
 files:
 - "kashcoin-osx-unsigned.tar.gz"
